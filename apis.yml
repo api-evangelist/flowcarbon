@@ -1,8 +1,15 @@
 aid: flowcarbon
 name: Flowcarbon
-description: Flowcarbon is a company surfaced as a portfolio company of a16z, general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Flowcarbon is a climate-finance company that provides project finance and bespoke
+  capital solutions for companies working in infrastructure, decarbonization, and
+  frontier climate industries. Its end-to-end services span project origination,
+  screening and due diligence, deal structuring, and tax-credit solutions, with a
+  focus on engineered carbon-removal technologies such as biochar and enhanced rock
+  weathering. Founded with a web3 heritage in tokenized voluntary carbon credits and
+  backed by a16z and General Catalyst, Flowcarbon today operates primarily as a
+  climate project-finance firm rather than a developer platform, and publishes no
+  public developer API, SDK, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/flowcarbon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +18,54 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/625db0bad5cfd681bd654bd8/663a37123f8b6c2b00dbcfa7_Flowcarbon%20Share%20Image.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Climate
+- Carbon
+- Carbon Removal
+- Carbon Credits
+- Project Finance
+- Sustainability
+- Web3
 apis: []
+common:
+- type: About
+  url: https://www.flowcarbon.com/about
+  name: About Flowcarbon
+- type: Blog
+  url: https://www.flowcarbon.com/news
+  name: News & Events
+- type: Support
+  url: https://www.flowcarbon.com/contact
+  name: Contact
+- type: PrivacyPolicy
+  url: https://www.flowcarbon.com/privacy-policy
+  name: Privacy Policy
+- type: GitHubOrganization
+  url: https://github.com/flowcarbon
+  name: Flowcarbon on GitHub
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
